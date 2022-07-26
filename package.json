@@ -1,6 +1,6 @@
 {
   "name": "eris-messages",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extremely easy and straight forward message handler for collecting messages or listening for a continuous stream of messages for the Eris library.",
   "main": "index.js",
   "scripts": {

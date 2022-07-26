@@ -13,9 +13,9 @@ Simply install Eris Messages via NPM `npm install eris-messages` and require it 
 # API 
 #### Setting up a listener:
 ```js
-new messageCollector(message, options);
+new messageCollector(client, options);
 ```
-- **Eris.Message** `message` - *An Eris message emitted from the `messageCreate` event.*
+- **Eris.Client** `client` - *An Eris client.*
 - **Object** `options` - *An object containing following options:*
     - **Function** `options.filter` - *A filter for the messages that sould be collected.*
     - **Number** `options.maxMessages` - *The maximum amount of messages to collect.*
