@@ -1,0 +1,29 @@
+{
+  "name": "eris-messages",
+  "version": "1.0.0",
+  "description": "An extremely easy and straight forward message handler for collecting messages or listening for a continuous stream of messages for the Eris library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelcollaco/eris-messages.git"
+  },
+  "keywords": [
+    "eris",
+    "messages",
+    "collector",
+    "message-collector",
+    "discord"
+  ],
+  "author": "Miguel Collaço",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miguelcollaco/eris-messages/issues"
+  },
+  "homepage": "https://github.com/miguelcollaco/eris-messages#readme",
+  "dependencies": {
+    "eris": "^0.17.1"
+  }
+}
